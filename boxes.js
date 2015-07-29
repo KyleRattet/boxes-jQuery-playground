@@ -32,11 +32,25 @@ $( document ).ready(function() {
     //   });
     // });
 
-    $('.box').on('click', function() {
-      $(this).css('background', 'white')
-      $('#container').css('background', 'black')
-    });
+    // $('.box').on('click', function() {
+    //   $(this).css('background', 'white')
+    //   $('#container').css('background', 'black')
+    //     $('#container').on('click', function  () {
+    //       $('#container').css('background', 'limegreen')
+    //     });
+    // });
 
+    $('#container').on('click', function () {
+      if (clicked container but not box) {
+        $(this).css('background', 'lime')
+        //code
+      } else {
+    })
+
+    $('.box').on('click', function () {
+      $(this).css('background', 'white')
+      $('#container').css("background", 'black')
+    })
 
 
 });
