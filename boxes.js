@@ -22,6 +22,13 @@ $( document ).ready(function() {
        console.log(event.pageX, event.pageY);
     });
 
+
+    $('.box').on('click', function () {
+    $(this).append('<img src="https://socialsteve.files.wordpress.com/2012/07/social-media-puppy.jpg">').on('click', function  () {
+   $('img').hide();
+    });
+    });
+
     $('.boxType1').html('<a href="http://www.galvanize.com/">Galvanize</a>').on('click', function  () {
         event.preventDefault();
         alert("You can never leave!");
